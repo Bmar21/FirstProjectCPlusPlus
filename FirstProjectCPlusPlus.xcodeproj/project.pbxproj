@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28EEBA611E368F9900F7AE83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EEBA601E368F9900F7AE83 /* main.cpp */; };
+		28EEBA681E3693D500F7AE83 /* FirstProjectRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EEBA671E3693D500F7AE83 /* FirstProjectRunner.cpp */; };
+		28EEBA6A1E36959400F7AE83 /* FirstProjectController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EEBA691E36959400F7AE83 /* FirstProjectController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		28EEBA5D1E368F9900F7AE83 /* FirstProjectCPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstProjectCPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
-		28EEBA601E368F9900F7AE83 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28EEBA671E3693D500F7AE83 /* FirstProjectRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstProjectRunner.cpp; path = Controller/FirstProjectRunner.cpp; sourceTree = "<group>"; };
+		28EEBA691E36959400F7AE83 /* FirstProjectController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstProjectController.cpp; path = Controller/FirstProjectController.cpp; sourceTree = "<group>"; };
+		28EEBA6B1E36987E00F7AE83 /* FirstProjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstProjectController.h; path = Controller/FirstProjectController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		28EEBA5F1E368F9900F7AE83 /* FirstProjectCPlusPlus */ = {
 			isa = PBXGroup;
 			children = (
-				28EEBA601E368F9900F7AE83 /* main.cpp */,
+				28EEBA671E3693D500F7AE83 /* FirstProjectRunner.cpp */,
+				28EEBA691E36959400F7AE83 /* FirstProjectController.cpp */,
+				28EEBA6B1E36987E00F7AE83 /* FirstProjectController.h */,
 			);
 			path = FirstProjectCPlusPlus;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EEBA611E368F9900F7AE83 /* main.cpp in Sources */,
+				28EEBA6A1E36959400F7AE83 /* FirstProjectController.cpp in Sources */,
+				28EEBA681E3693D500F7AE83 /* FirstProjectRunner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
