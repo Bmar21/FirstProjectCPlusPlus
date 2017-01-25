@@ -11,6 +11,8 @@
 
 class FirstProjectController
 {
+private:
+    void specialOutput();
 public:
     void start();
 };
