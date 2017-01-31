@@ -20,8 +20,8 @@ public:
     void startTimer();
     void stopTimer();
     void resetTimer();
-    void diplayTimerInformation();
-    void getExecutionTimeInMicroseconds();
+    void displayTimerInformation();
+    long getExecutionTimeInMicroseconds();
 };
 
 #endif /* Timer_hpp */
