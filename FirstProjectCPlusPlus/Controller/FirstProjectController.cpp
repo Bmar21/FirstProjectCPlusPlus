@@ -8,14 +8,28 @@
 
 #include <iostream>
 #include "FirstProjectController.h"
-#include "Timer.hpp" 
+#include "../Model/Timer.hpp"
 
 using namespace std;
 
 void FirstProjectController :: start()
 {
+    Timer afternoonTime;
+    afternoonTime.startTimer();
+    
     cout << "words here please :D" << endl;
     specialOutput();
+    
+    int derpy;
+    cin >> derpy;
+    
+    cout << derpy << endl;
+    
+    cout << "Changing with a pointer" << endl;
+    
+    
+    afternoonTime.stopTimer();
+    afternoonTime.displayTimerInformation();
 }
 
 void FirstProjectController :: specialOutput()
